@@ -1,0 +1,14 @@
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+#animate-area	{ 
+	width: 960px; 
+	height: 1280px; 
+	background-image: url(https://web.ist.utl.pt/~ist172700/ccu/clouds-illustration-backgrounds.jpg);
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+
+	animation: animatedBackground 10s linear infinite;
+}

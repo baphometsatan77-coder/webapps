@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<title>
+			Product Information
+		</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	
+	<body bgcolor="lightgrey">
+
+<embed src="header.html" height="180px" width="1340px"></embed>
+<div id="animate-area" style="height:100%;margin:0px 0px 0px 0px;" align=center>
+	<font face="rockwell">
+		<br><h1 align=center style="margin:0px 0px 0px 0px;">
+		
+		Product Information
+		</h1>
+		<form name="product_info" action="product_info_Sa.html">
+		<table align=center cellspacing=20 cellborder=0>
+			<tr>
+				<td>
+					Product title
+				</td>
+				<td>
+					<input type=text name="used_period">
+				</td>
+			</tr>
+			<tr>
+				<td>Select category :</td>
+				<td>
+					<select width=50% name="categories">
+						<option>Mobiles and tablets</option>
+						<option>Cars</option>
+						<option>Bikes</option>
+						<option>Books</option>
+						<option>Furniture</option>
+						<option>Home appliances</option>
+						<option>Accessories</option>
+						<option>Other</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Period Used(in years): </td>
+				<td>
+					<input type=text name="used_period">
+				</td>
+			</tr>
+			<tr>
+				<td>Minimum Sell Amount : </td>
+				<td>
+					<input type=text name="minimun_amount">
+				</td>
+			</tr>
+			<tr>
+				<td>Upload images : </td>
+				<td>
+					<input type=file multiple>
+				</td>
+			</tr>
+			<tr>
+				<td style="vertical-align:top;">Properties : </td>
+				<td>
+					<textarea rows=10 cols=30 border=5 name="information">
+					</textarea>
+				</td>
+			</tr>
+			<tr></tr>
+			<tr>
+				<td align=center colspan=2 rowspan=3>
+					<a href="index.html"><input type=submit name="submit"  class="button"> </a>
+				</td>
+			</tr>
+		</table>
+		</font>
+		</form>
+		</font>
+<embed src="footer.html" height="120px" width="1340px"></embed>
+</div>
+	</body>
+</html>
