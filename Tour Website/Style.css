@@ -1,0 +1,563 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 2px 2px 40px black;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    align-items: center;
+}
+.bars{
+    display: none;
+    height: 30px;
+    width: fit-content;
+    color: black;
+    
+    
+    margin: 1rem;
+    
+}
+.tclose{
+    height: 30px;
+    width: fit-content;
+    position: relative;
+    top: 0px;
+    display: none;
+}
+.headlis{
+    padding: 5px;
+    margin: 5px;
+    height: fit-content;
+    align-items: center;
+    
+    top: 9px;
+    cursor: pointer;
+}
+.headlis a{
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+
+.head ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 5px;
+    
+    
+}
+.headlis1 {
+
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1rem;
+    cursor: pointer;
+    height: fit-content;
+}
+
+.head li{
+    list-style-type: none;
+    margin: 5px;
+    margin-left: 50px;
+    padding: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.head a{
+    text-decoration: none;
+    color: black;
+}
+/* .resnav{
+    display: flex;
+    flex-direction: column;
+   background-color: white;
+   box-shadow: 0 1px 7px 0 rgb(0 0 0 / 40%);
+   width: 10%;
+z-index: 2;
+}
+.resnav1{
+    margin: 1rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.resnav1 li{
+    padding: 0.5rem;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+.resnav1 a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} */
+.heroimg{
+   
+    padding: 0;
+}
+.heroimg img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.traitem{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    /* position: relative;
+    left: 370px; */
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 7px 0 rgb(0 0 0 / 40%);
+    /* margin: 5px; */
+    margin: auto;
+    padding: 5px;
+    align-items: center;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.traitem li{
+    list-style-type: none;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    
+
+}
+
+.traitem img{
+    width: 50px;
+    /* background-color: chocolate; */
+    padding: 5px;
+    margin: 5px;
+    color: blue;
+    
+    
+}
+.travellist{
+    margin: 20px;
+    align-items: center;
+    box-shadow: 0 1px 7px 0 rgb(0 0 0 / 40%);
+}
+.try{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+.listname{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3rem;
+    justify-content: center;
+    
+}
+.listcont{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.listcont:hover{
+    border-style: solid;
+    border-width: 1px;
+    
+}
+.listcont img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin: 5px;
+    padding: 5px;
+
+}
+.listlis{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.listcity strong{
+    padding: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+.listrou{
+    padding: 5px;
+}
+.listrou strong{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.ideacol{
+    margin-top: 70px;
+    padding: 0;
+    box-shadow: 0 1px 7px 0 rgb(0 0 0 / 40%);
+    margin-left: 20px;
+    margin-right: 20px;
+    align-content: center;
+}
+.ideacol0 h2{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    margin: 10px;
+    padding: 10px;
+}
+.ideacol01{
+display: flex;
+
+
+
+}
+.ideacol1{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+}
+.ideacol1 img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+.ideacol1 h4{
+    padding: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+.ideacol1 p{
+    padding: 5px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    max-width: 30rem;
+}
+.ideacol1 a{
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.ideacol1 a:hover{
+    color: white;
+    background-color: black;
+}
+.mailent{
+    margin: 20px;
+    padding: 10px;
+    align-items: center;
+    background-color: #cb2d3e;
+    box-shadow: 0 3px 20px 0 rgb(0 0 0 / 40%);
+    
+}
+.mailent1{
+    width: fit-content;
+    margin: 0;
+    margin: auto;
+}
+.mailent label{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    margin: 10px;
+    padding: 5px;
+}
+.mailent input{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    width: 300px;
+    height: 20px;
+}
+ .out{
+    background-color: white;
+    padding: 8px;
+    margin: 5px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    color: #cb2d3e;
+    display: none;
+    
+
+
+}
+.mailent a{
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    color:  #cb2d3e;
+    cursor: pointer;
+}
+.mailent a:hover{
+    color: white;
+    background-color: #cb2d3e;
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+
+}
+.foot img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    padding: 10px;
+    /* position: relative;
+    left: 685px; */
+    cursor: pointer;
+}
+.foot1 {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+
+.linform {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    position: absolute;
+    top: 20vw;
+    left: 13vw;
+    width: 70%;
+    box-shadow: 0 1px 7px 0 rgb(0 0 0 / 40%);
+    display: none;
+    padding: 1vw;
+    margin: 1rem;
+    
+    justify-content: center;
+    align-items: center; 
+
+}
+
+.linform00 {}
+
+.linform0 {
+    font-weight: 600;
+    font-size: 2rem;
+    align-items: center;
+    padding: 2rem;
+}
+
+.linform1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.linform1 label {
+    padding: 0.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.linform1 input {
+    max-width: 10rem;
+    padding: 0.5rem;
+    min-width: 10rem;
+    border-radius: 2rem;
+    border-style: none;
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 7px 0 rgb(0 0 0 / 40%);
+    font-weight: 600;
+}
+
+.linform2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linform2 label {
+    padding: 0.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.linform2 input {
+    max-width: 10rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    min-width: 10rem;
+    border-radius: 2rem;
+    border-style: none;
+    box-shadow: 0 1px 7px 0 rgb(0 0 0 / 40%);
+    font-weight: 600;
+}
+
+.login {
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: rgb(255, 255, 255);
+
+    padding: 1.5rem;
+    text-align: center;
+    align-items: center;
+}
+
+.login a {
+    color: rgb(0, 0, 0);
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.closei {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 6rem;
+    cursor: pointer;
+}
+
+.closei img {
+    max-width: 2vw;
+    background-color: rgb(255, 255, 255);
+
+}
+@media only screen and (max-width: 1255px) {
+    .ideacol01{
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+  }
+
+  @media only screen and (max-width: 953px) {
+    .listname{
+        justify-content: center;
+        flex-direction: row;
+    }
+  }
+  @media only screen and (max-width: 551px) {
+    .headlis{
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        
+        
+        
+    }
+
+    .headlis a {
+        margin: auto;
+        padding-left: 0.5rem;
+        font-size: 1rem;
+        
+    }
+   
+    .traitem{
+        
+        min-width: fit-content;
+        
+    }
+    .listname{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin: auto;
+    }
+    .listcont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .listcont img{
+        justify-content: center;
+    }
+    .mailent1{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .mailent input{
+        max-width: fit-content;
+        
+        
+    }
+  }
+
+
+  @media only screen and (max-width: 665px) {
+    .head{
+        align-items: center;
+    }
+    .resm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+    }
+    .head ul{
+        display: none;
+    }
+    .head li{
+        margin: 0;
+    }
+    .bars{
+        display: block;
+        margin: auto;
+    }
+    .traitem{
+        
+        min-width: fit-content;
+        
+    }
+    .tclose{
+        display: none;
+    }
+  }
